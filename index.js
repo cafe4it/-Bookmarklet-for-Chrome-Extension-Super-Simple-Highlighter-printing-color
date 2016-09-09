@@ -15,7 +15,7 @@ var importScript = (function(oHead) {
     }
 
 })(document.head || document.getElementsByTagName("head")[0]);
-importScript("http://sources.disruptive-innovations.com/jscssp/trunk/cssParser.js", function() {
+importScript("https://cdn.rawgit.com/cafe4it/-Bookmarklet-for-Chrome-Extension-Super-Simple-Highlighter-printing-color/master/cssParser.min.js", function() {
     var highlightEle = document.querySelector('style[id]')
     var headEle = document.getElementsByTagName('head')[0]
     if (highlightEle) {
